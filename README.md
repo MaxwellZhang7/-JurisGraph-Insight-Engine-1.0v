@@ -49,8 +49,6 @@ chatbot_graph.py：问答程序脚本
 3、本项目以neo4j作为存储，并基于传统规则的方式完成了知识问答，并最终以cypher查询语句作为问答搜索sql，支持了问答服务。  
 4、本项目可以快速部署，本项目的数据，如侵犯相关单位权益，请联系我删除。本数据请勿商用，以免引起不必要的纠纷。在本项目中的部署上，可以遵循项目运行步骤，完成数据库搭建，并提供搜索服务。    
 
-If any question about the project or me ,see https://liuhuanyong.github.io/
-
 
 如果运行fail
 可是尝试使用 neo4j stop 然后 neo4j.bat console
