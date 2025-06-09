@@ -101,7 +101,7 @@ class LawGraph:
                 
                 drug_dict = {}
                 count += 1
-                # 将name字段加入到新建的疾病字典中
+                # 将name字段加入到新建的字典中
                 drug_dict['number'] = uuid.uuid1().hex
                 drug_dict['district'] = fake.city_name()+fake.district()
                 drug_dict['jianchayuan'] = drug_dict['district']+ "检察院"
@@ -215,7 +215,7 @@ class LawGraph:
             print("建节点",count, len(nodes))
         return
       
-    '''创建知识图谱中心疾病的节点'''
+    '''创建知识图谱中心案件的节点'''
     def create_anjian_nodes(self, drug_infos):
         count = 0
         for drug_dict in drug_infos:
