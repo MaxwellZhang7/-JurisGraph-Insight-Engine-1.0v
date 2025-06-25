@@ -1,4 +1,4 @@
-# QABasedOnLegalKnowledgeGraph
+# JurisGraph Insight Engine 1.0v
 self-implement of law centered Medical graph from zero to full and sever as question answering base. 从无到有搭建一个以为中心的一定规模法律领域知识图谱，并以该知识图谱完成自动问答与分析服务。
 
 # 项目介绍
